@@ -1,0 +1,24 @@
+Server:
+  Name: halalAPI
+  Version: "v0.0.1"
+  RPCPort: 8080
+  RESTPort: 9090
+  Debug: false
+  Env: local
+  ReadTimeOut: 5s
+  WriteTimeOut: 5s
+
+Database:
+  Host: mongodb+srv://zulyazqall:MjIL79qMAKwwU9xt@cluster0.vnrggls.mongodb.net/
+  Port: 3306
+  Name: users
+  User: mysql
+  Password: pwd
+
+Mongodb:
+  Uri: mongodb+srv://zulyazqall:MjIL79qMAKwwU9xt@cluster0.vnrggls.mongodb.net/
+
+Authentication:
+  Key: a!@#
+  SecretKey: s3cr#tK3y!@#v001
+  SaltKey: s4ltK3y!@#ddv001
